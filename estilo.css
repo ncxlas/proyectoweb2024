@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0; 
+}
+
+#banner{
+    background-image: url('banner.png');
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#arriba{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    background-color: lightgrey;
+}
+
+nav{
+    display: flex;
+    column-gap: 25px;
+}
+
+nav > a{
+    color: #252525;
+    text-decoration: none;
+}
+
+#banner > h1{
+    color: #FCBE4D;
+    font-size: 3.5rem;
+    margin-left: 10vw;
+}
+
+#boton{
+    margin-left: 10vw;
+    color: #FFFFFF;
+    background-color: #FCBE4D;
+    width: fit-content;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.img1{
+    background-color: lightgrey;
+    width: 33.3%;
+    text-align: center;
+    justify-content: center;    
+    align-self: center;
+    
+    
+}
+.img2{
+    background-color: lightgrey;
+    width: 33.3%;
+    text-align: center;
+    justify-content: center;    
+    align-self: center;
+}
+.img3{
+    background-color: lightgrey;
+    width: 33.3%;
+    text-align: center;
+    justify-content: center;    
+    align-self: center;
+}
+
+.cuadros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightgrey;
+    height: 50vh;
+    font-weight: 50vh;
+}
+
+.selectoranimal1{
+    width: 45vh;
+    height: 40vh;
+
+}
+
+#cuadro1{
+    align-self: center;
+}
+
+a{
+    text-decoration: none;
+}
